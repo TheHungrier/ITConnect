@@ -1,0 +1,13 @@
+{
+  "absent_penalty": 0,
+  "attendance_status": 1,
+  "check_in_guide": 2,
+  "feedback_help": 3,
+  "greeting": 4,
+  "map_help": 5,
+  "my_activities": 6,
+  "notification_help": 7,
+  "training_score": 8,
+  "unknown": 9,
+  "upcoming_activity": 10
+}

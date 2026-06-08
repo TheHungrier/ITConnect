@@ -1,0 +1,49 @@
+# Flutter
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+.packages
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/build/
+*.jks
+*.keystore
+key.properties
+
+# iOS / macOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+macos/Flutter/ephemeral/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Python backend
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Secret files
+.env
+*.env
+serviceAccountKey.json
+firebase-service-account.json
+*firebase-adminsdk*.json
+google-cloud-key.json
+
+# Logs
+*.log

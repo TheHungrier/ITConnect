@@ -1,0 +1,11 @@
+absent_penalty
+attendance_status
+check_in_guide
+feedback_help
+greeting
+map_help
+my_activities
+notification_help
+training_score
+unknown
+upcoming_activity
