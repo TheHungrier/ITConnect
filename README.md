@@ -1,6 +1,6 @@
 # ITConnect
 
-ITConnect là ứng dụng hỗ trợ quản lý hoạt động sinh viên. Ứng dụng giúp sinh viên xem tin tức, đăng ký hoạt động, điểm danh bằng mã QR, gửi minh chứng, theo dõi điểm rèn luyện và gửi góp ý cho quản trị viên.
+ITConnect là ứng dụng hỗ trợ quản lý đăng ký tham gia học thuật và đoàn cho sinh viên. Ứng dụng giúp sinh viên đăng ký hoạt động, điểm danh bằng mã QR,...
 
 Project gồm 2 phần chính:
 
@@ -45,7 +45,7 @@ Project gồm 2 phần chính:
 - Flutter
 - Firebase Authentication
 - Cloud Firestore
-- Cloudinary hoặc Firebase Storage cho ảnh/minh chứng tùy cấu hình
+- Cloudinary hoặc Firebase Storage
 - Local Notifications
 - OpenStreetMap với `flutter_map`
 
@@ -59,23 +59,3 @@ Project gồm 2 phần chính:
 - Dataset intent tự xây dựng theo nghiệp vụ của ITConnect
 
 ---
-
-## 3. Cấu trúc thư mục
-
-```text
-MuRom_QLHD/
-├── ltdd_qlhd_flutter/
-│   ├── lib/
-│   ├── android/
-│   ├── ios/
-│   └── pubspec.yaml
-│
-├── chatbot_backend/
-│   ├── app/
-│   ├── data/
-│   ├── models/
-│   ├── scripts/
-│   └── requirements.txt
-│
-├── README.md
-└── .gitignore
