@@ -17,9 +17,6 @@ ITConnect là hệ thống hỗ trợ quản lý đăng ký tham gia hoạt đ�
 - [4. Yêu cầu môi trường](#4-yêu-cầu-môi-trường)
 - [5. Hướng dẫn chạy nhanh](#5-hướng-dẫn-chạy-nhanh)
 - [6. Cấu hình Firebase và biến môi trường](#6-cấu-hình-firebase-và-biến-môi-trường)
-- [7. Quy trình phát triển gợi ý](#7-quy-trình-phát-triển-gợi-ý)
-- [8. Đóng góp](#8-đóng-góp)
-- [9. Giấy phép](#9-giấy-phép)
 
 ---
 
@@ -188,30 +185,3 @@ export GOOGLE_APPLICATION_CREDENTIALS="/path/service-account.json"
 
 - Cần cấu hình Firebase project tương ứng (Android/iOS).
 - Đảm bảo các file cấu hình nền tảng đã được thêm đúng theo tài liệu Firebase cho Flutter.
-
----
-
-## 7. Quy trình phát triển gợi ý
-
-1. Tạo branch mới theo tính năng (`feature/...`) hoặc sửa lỗi (`fix/...`).
-2. Cập nhật code và test cục bộ.
-3. Đảm bảo backend `/health` hoạt động và app Flutter chạy được.
-4. Tạo Pull Request mô tả rõ phạm vi thay đổi.
-
----
-
-## 8. Đóng góp
-
-Mọi đóng góp đều được hoan nghênh.
-
-- Mở issue để báo lỗi/đề xuất tính năng.
-- Tạo pull request với mô tả rõ ràng.
-- Giữ code style nhất quán giữa các module.
-
----
-
-## 9. Giấy phép
-
-Hiện chưa khai báo license cụ thể trong repository.
-
-Nếu bạn là chủ dự án, nên bổ sung file `LICENSE` (ví dụ: MIT, Apache-2.0) để làm rõ phạm vi sử dụng mã nguồn.
